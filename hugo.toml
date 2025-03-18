@@ -1,0 +1,50 @@
+baseURL = 'http://taesokkwon.github.io/'
+languageCode = 'ja-jp'
+theme = "m10c"
+
+title = "tkwonn's blog"
+
+[params]
+  author = 'tkwonn'
+  description = "技術ブログ"
+  avatar = 'profile.jpg'
+  menu_item_separator = " / "
+  images = ['profile.jpg']
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/tkwonn"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://x.com/usoreu"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/taesok-kwon/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+
+[params.style]
+  primaryColor = "#A079FF"
+
+# light style
+#[params.style]
+#  darkestColor = "#dfe2d4"
+#  darkColor = "#fefeff"
+#  lightColor = "#353b43"
+#  lightestColor = "#242930"
+#  primaryColor = "#22AAFF"
