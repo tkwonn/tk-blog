@@ -10,6 +10,7 @@ title = "tkwonn's blog"
   avatar = 'profile.jpg'
   menu_item_separator = " / "
   images = ['profile.jpg']
+  favicon =  '/favicon.png'
   [[params.social]]
     icon = "github"
     name = "Github"
