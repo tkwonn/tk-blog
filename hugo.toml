@@ -31,10 +31,6 @@ title = "tkwonn's blog"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
